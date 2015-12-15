@@ -1,4 +1,3 @@
-page('/', function() {
-    console.log('Hey, you are at app root!');
-  });
+page('/', articlesController.index);
+
   page.start();
